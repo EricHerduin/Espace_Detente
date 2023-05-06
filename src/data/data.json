@@ -1,0 +1,150 @@
+[
+  {
+    "id": "1",
+    "title": "Spa semi rigide non gonflable",
+    "fabricant": "Softub",
+    "image": "https://i.ibb.co/ZzY9Qpb/Resort-3d-png.webp",
+    "modele": [
+      {
+        "modeleid": "1",
+        "name": "Sportster",
+        "nbplace": "2",
+        "text": "Que vous soyez seul(e) ou à deux, le spa Softub® vous conviendra parfaitement. Grâce à sa taille et son poids il se place où vous le souhaitez : sur une terrasse, dans votre jardin, à l’intérieur comme à l’extérieur, le Sportster trouve sa place. Pour installer le Sportster, rien de plus simple ! Vous n’avez besoin que d’un tuyaux d’arrosage ainsi que d’une prise électrique classique. Bien que le Sportster soit le modèle plus petit des spas Softub®, ce dernier renferme de nombreux avantages tels que l’hydrothérapie avec les jets directs et rotatifs situés dans le spa, la chromathérapie avec la LED multicolor permettant de changer l’ambiance désirée. Ce spa est composé d’une structure semi-rigide en mousse Polybond™, cela vous permet d’avoir une assise confortable où que vous soyez dans le spa sans pour autant être dans un spa gonflable.",
+        "modeleimage": [
+          "https://i.goopics.net/xi8jn4.jpg",
+          "https://i.goopics.net/6c223p.jpg",
+          "https://i.goopics.net/r1tqpa.jpg",
+          "https://i.goopics.net/9mrt5n.jpg",
+          "https://i.goopics.net/ntqrva.jpg",
+          "https://i.goopics.net/xyewv1.jpg"
+        ],
+        "features": [
+          "diamètre extérieur : 150 cm",
+          "diamètre intérieur : 120 cm",
+          "hauteur : 61 cm",
+          "poids total à vide : 51 kg",
+          "poids du bassin à vide : 23 kg",
+          "poids de l'hydromate : 19 kg",
+          "poids de la couverture thermique : 9 kg",
+          "poids total rempli : 581 kg",
+          "volume d'eau : 530 L",
+          "éclairage intérieur : Lumiere multicolore Led",
+          "revêtement extérieur : Leathertex (vinyle marin) / syntex",
+          "nombre de jets : 4 hydrojets",
+          "spécifications électriques : 220v / 240v 50 hz, 6 A",
+          "consommation électrique maximum : 1400 W"
+        ]
+      },
+      {
+        "modeleid": "2",
+        "name": "Legend",
+        "nbplace": "4",
+        "text": "Le spa Softub® Legend est le spa portable par excellence. Que vous soyez à deux, en famille ou entre amis, vous ne pourrez plus vous en passer. La disposition stratégique de 5 jets de massage directionnels à l’intérieur du spa vous assure une relaxation et un plaisir optimal. Avec la facilité d’installation et d’utilisation des spas Softub®, n’attendez plus pour vous accorder un moment de plaisir ! La matière en Polybond™ vous assure une structure légère mais résistante et surtout non gonflable. Le spa Softub Legend vous permet d’avoir accès aux bienfaits de l’hydrothérapie d’un spa « traditionnel », mais avec les contraintes en moins. Qu’attendez vous pour accéder au bonheur depuis chez vous ?",
+        "modeleimage": [
+          "https://i.goopics.net/bqjt5q.jpg",
+          "https://i.goopics.net/i2tb8o.jpg"
+        ],
+        "features": [
+          "diamètre extérieur : 180 cm",
+          "diamètre intérieur : 150 cm",
+          "hauteur : 61 cm",
+          "poids total à vide : 62 kg",
+          "poids du bassin à vide : 32 kg",
+          "poids de l'hydromate : 19 kg",
+          "poids de la couverture thermique : 11 kg",
+          "poids total rempli : 892 kg",
+          "volume d'eau : 830 L",
+          "éclairage intérieur : Lumiere multicolore Led",
+          "revêtement extérieur : Leathertex (vinyle marin) / syntex",
+          "nombre de jets : 5 hydrojets",
+          "spécifications électriques : 220v / 240v 50 hz, 6 A",
+          "consommation électrique maximum : 1400 W"
+        ]
+      },
+      {
+        "modeleid": "3",
+        "name": "Resort",
+        "nbplace": "6",
+        "text": "Avec le spa Softub Resort, montez en gamme et accédez aux bienfaits de la balnéothérapie. Grâce à son banc balnéo et ses jets rotatifs et directionnels disposés à l’intérieur du spa, vous ne pourrez plus vous en passer ! Résistant au chaud et au froid comme tous les spas Softub®, vous pourrez profiter d’une séance de spa en intérieur comme en extérieur et par tous les temps. Pouvant accueillir jusqu’à 6 personnes, le Resort est le spa portable pour la famille par excellence. Grâce à son installation facile, vous n’avez besoin que de faire rouler votre spa sur la tranche puis le poser ou vous le souhaitez, pour le connecter, une simple prise électrique classique est requise. Disponible en LetherTex™ (vinyle marin) et en Syntex™, vous pouvez également le personnaliser dans plus de 10 coloris différents afin que votre spa vous corresponde parfaitement.",
+        "modeleimage": [
+          "https://i.goopics.net/bqjt5q.jpg",
+          "https://i.goopics.net/i2tb8o.jpg"
+        ],
+        "features": [
+          "diametre extérieur : 200 cm",
+          "diametre intérieur : 170 cm",
+          "hauteur : 69 cm",
+          "poids total à vide : 69 kg",
+          "poids du bassin à vide : 36 kg",
+          "poids de l'hydromate : 19 kg",
+          "poids de la couverture thermique : 14 kg",
+          "poids total rempli : 1199 kg",
+          "volume d'eau : 1130 L",
+          "éclairage intérieur : Lumiere multicolore Led",
+          "revêtement extérieur : Leathertex (vinyle marin) / syntex",
+          "nombre de jets : 7 hydrojets",
+          "spécifications électriques : 220v / 240v 50 hz, 6 A",
+          "consommation électrique maximum : 1400 W"
+        ]
+      },
+      {
+        "modeleid": "4",
+        "name": "Portico",
+        "nbplace": "6",
+        "text": "Le spa Softub Portico représente parfaitement la qualité du savoir faire de Softub® : avec son banc balnéo, ses 8 jets dont le jet Poseidon et ses 2 LEDs multicolores, le Portico est le spa le plus complet de tous les spas Softub®. Pouvant accueillir jusqu’à 6 personnes, ce spa est idéal pour inviter sa famille ou ses amis, la structure en mousse Polybond™ vous assure un confort optimal tout en étant dans un spa non gonflable. Disponible en de multiples coloris Syntex, personnalisez votre spa tel que vous le souhaitez. Votre séance de spa peut se transformer en véritable séance thérapeutique grâce au jet Poseidon : le jet directionnel le plus puissant du marché, avec modes de fonctionnements réglables, le jet Poseidon transformera vos séances de spa.",
+        "modeleimage": [
+          "https://i.goopics.net/bqjt5q.jpg",
+          "https://i.goopics.net/i2tb8o.jpg"
+        ],
+        "features": [
+          "diamètre extérieur : 201 cm",
+          "diamètre intérieur : 170 cm",
+          "hauteur : 69 cm",
+          "poids total à vide : 73 kg",
+          "poids du bassin à vide : 40 kg",
+          "poids de l hydromate : 19 kg",
+          "poids de la couverture thermique : 14 kg",
+          "poids total rempli : 1182 kg",
+          "volume d'eau : 1109 L",
+          "éclairage intérieur : 2 Lumieres multicolores Led",
+          "revêtement extérieur : syntex",
+          "nombre de jets : 7 hydrojets + 1 hydrojet poseidon",
+          "spécifications électriques : 220v / 240v 50 hz, 6 A",
+          "consommation électrique maximum : 1400 W"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Bain nordique",
+    "fabricant": "Storvatt",
+    "image": "https://i.goopics.net/i2tb8o.jpg",
+    "modele": [
+      {
+        "modeleid": "1",
+        "name": "Bain nordique",
+        "nbplace": "2",
+        "text": "Le bain nordique Storvatt est le choix parfait pour ceux qui cherchent à se détendre et à se ressourcer dans leur propre jardin. Fabriqué à partir de bois de cèdre rouge de qualité supérieure, ce bain nordique est conçu pour résister aux éléments tout en offrant une expérience de baignade relaxante et authentique. Le système de chauffage au bois permet de maintenir l'eau à la température souhaitée, tandis que les sièges en bois confortables et ergonomiques assurent un confort maximal pour une baignade prolongée. Avec sa beauté naturelle et son design intemporel, le bain nordique Storvatt est un ajout élégant et pratique à tout jardin ou terrasse.",
+        "modeleimage": ["https://i.goopics.net/5027ki.jpg"],
+        "features": ["en cours"]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Spa Bois",
+    "fabricant": "Storvatt",
+    "image": ["https://i.goopics.net/ooe7os.jpg"],
+    "modele": [
+      {
+        "modeleid": "1",
+        "name": "Spa Bois",
+        "nbplace": "2",
+        "text": "Le spa bois Storvatt est la solution parfaite pour ceux qui cherchent à ajouter une touche de luxe à leur vie quotidienne. Fabriqué à partir de bois de cèdre rouge de qualité supérieure, ce spa offre une expérience de baignade relaxante et rafraîchissante dans un cadre naturel. Son design élégant et intemporel s'intègre parfaitement dans tout jardin ou terrasse, et sa construction robuste et résistante garantit une longue durée de vie. Le système de chauffage au bois permet de maintenir l'eau à la température souhaitée, tandis que les jets de massage offrent une expérience de spa ultime pour une relaxation complète. Avec ses dimensions compactes et sa facilité d'installation, le spa bois Storvatt est un ajout pratique et luxueux à tout style de vie.",
+        "modeleimage": ["https://i.goopics.net/ix9i97.jpg"],
+        "features": ["en cours"]
+      }
+    ]
+  }
+]
