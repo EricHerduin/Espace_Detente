@@ -1,6 +1,6 @@
 {
-  "short_name": "Espace Détente Reims",
-  "name": "Espace Détente Reims, le Spécialiste du Spa à Reims",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
