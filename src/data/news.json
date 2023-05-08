@@ -1,8 +1,34 @@
 [
   {
     "id": "1",
-    "title": "ceci est mon premier article",
-    "content": "description de la news",
-    "publishedDate": "03/05/2023"
+    "image": "./assets/spa-supplies.jpg",
+    "title": "Comment soulager l'arthrose par l'hydromassage ?",
+    "subtitle": "Les spas avec hydromassage sont très bénéfiques pour les personnes souffrant d'arthrose.",
+    "content": "L'hydromassage favorise la circulation sanguine, réduit l'inflammation dans les articulations et contribue à détendre les muscles et les tendons. Les exercices réalisés dans l'eau chaude du spa sont moins stressants pour les articulations, ce qui peut être bénéfique pour les personnes souffrant d'arthrose. Enfin, le spa avec hydromassage peut aider à réduire le stress et l'anxiété, qui sont souvent associés à la douleur chronique. En offrant un moment de détente et de relaxation, le spa avec hydromassage peut améliorer la qualité de vie des personnes atteintes d'arthrose.",
+    "publishedDate": "07/05/2023"
+  },
+  {
+    "id": "2",
+    "image": "./assets/spa-supplies.jpg",
+    "title": "Un spa pour cet été",
+    "subtitle": "",
+    "content": "Les spas avec hydromassage sont très bénéfiques pour les personnes souffrant d'arthrose. L'hydromassage favorise la circulation sanguine, réduit l'inflammation dans les articulations et contribue à détendre les muscles et les tendons. Les exercices réalisés dans l'eau chaude du spa sont moins stressants pour les articulations, ce qui peut être bénéfique pour les personnes souffrant d'arthrose. Enfin, le spa avec hydromassage peut aider à réduire le stress et l'anxiété, qui sont souvent associés à la douleur chronique. En offrant un moment de détente et de relaxation, le spa avec hydromassage peut améliorer la qualité de vie des personnes atteintes d'arthrose.",
+    "publishedDate": "07/05/2023"
+  },
+  {
+    "id": "3",
+    "image": "./assets/spa-supplies.jpg",
+    "title": "Comment soulager l'arthrose par l'hydromassage ?",
+    "subtitle": "",
+    "content": "Les spas avec hydromassage sont très bénéfiques pour les personnes souffrant d'arthrose. L'hydromassage favorise la circulation sanguine, réduit l'inflammation dans les articulations et contribue à détendre les muscles et les tendons. Les exercices réalisés dans l'eau chaude du spa sont moins stressants pour les articulations, ce qui peut être bénéfique pour les personnes souffrant d'arthrose. Enfin, le spa avec hydromassage peut aider à réduire le stress et l'anxiété, qui sont souvent associés à la douleur chronique. En offrant un moment de détente et de relaxation, le spa avec hydromassage peut améliorer la qualité de vie des personnes atteintes d'arthrose.",
+    "publishedDate": "07/05/2023"
+  },
+  {
+    "id": "4",
+    "image": "./assets/spa-supplies.jpg",
+    "title": "Comment soulager l'arthrose par l'hydromassage ?",
+    "subtitle": "",
+    "content": "Les spas avec hydromassage sont très bénéfiques pour les personnes souffrant d'arthrose. L'hydromassage favorise la circulation sanguine, réduit l'inflammation dans les articulations et contribue à détendre les muscles et les tendons. Les exercices réalisés dans l'eau chaude du spa sont moins stressants pour les articulations, ce qui peut être bénéfique pour les personnes souffrant d'arthrose. Enfin, le spa avec hydromassage peut aider à réduire le stress et l'anxiété, qui sont souvent associés à la douleur chronique. En offrant un moment de détente et de relaxation, le spa avec hydromassage peut améliorer la qualité de vie des personnes atteintes d'arthrose.",
+    "publishedDate": "07/05/2023"
   }
 ]

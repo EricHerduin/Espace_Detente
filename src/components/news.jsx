@@ -1,25 +1,44 @@
 import React, { useState, useEffect } from "react";
 import newsData from "../data/news.json";
+import { Link, useParams } from "react-router-dom";
 
-function NewsPage() {
+export default function NewsPage() {
   const [news, setNews] = useState([]);
 
   useEffect(() => {
     setNews(newsData);
   }, []);
-
-  return (
-    <div className="news-page">
-      <h1>Dernières actualités</h1>
-      {news.map((article) => (
-        <div className="news-page-item" key={article.id}>
-          <h2>{article.title}</h2>
-          <p>{article.content}</p>
-          <p>Publié le {article.publishedDate}</p>
+  const newsId = useParams().id;
+  const newsEditData = newsData.find((article) => {
+    return article.id === newsId;
+  });
+  console.log(newsEditData);
+  if (!newsId) {
+    return (
+      <div className="news-page">
+        <h1>Dernières actualités</h1>
+        <div className="news-page-card">
+          {news.map((article) => (
+            <div className="news-page-item" key={article.id}>
+              <Link to={"/news/" + article.id}>
+                <img src={article.image} alt="" />
+                <h2>{article.title}</h2>
+                <p>{article.subtitle}</p>
+                <p>Publié le {article.publishedDate}</p>
+              </Link>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
-  );
+      </div>
+    );
+  } else {
+    return (
+      <div className="news-edit">
+        <Link to="/news">{"< "}Retour aux news</Link>
+        <h2>{newsEditData.title}</h2>
+        <img src={newsEditData.image} alt="" />
+        <p>{newsEditData.content}</p>
+      </div>
+    );
+  }
 }
-
-export default NewsPage;
