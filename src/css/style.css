@@ -353,18 +353,30 @@ h2 {
 }
 .avantage-background-icone {
   display: flex;
-  background-color: #149ac0;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom: solid 1px #149ac0;
+  border-top: solid 1px #242e60;
   width: 120px;
   height: 120px;
-  border-radius: 50%;
+  transition: rotate 2s;
   margin: 0 auto;
   align-items: center;
 }
+.avantage-background-icone:hover,
+.avantage-background-icone :active {
+  rotate: 180deg;
+}
+.avantage-background-icone:hover .avantage-icone {
+  rotate: -540deg;
+}
 .avantage-icone {
+  display: block;
   margin: auto;
   margin-top: 10%;
   margin-bottom: 10%;
   transform: scale(1.1);
+  transition: rotate 2s;
 }
 .avantage-title {
   font-size: 30px;
@@ -374,34 +386,39 @@ h2 {
   font-size: 20px;
 }
 .avantage-description {
-  height: 100px;
+  height: 0;
   width: 80%;
   margin: 0 auto;
   opacity: 0;
-  transition: all 1s ease-out;
+  transition: height 0.5s ease-in-out;
 }
 .avantage-description-hide {
   width: 80%;
   margin: 0 auto;
-  height: 200px;
+  height: 170px;
   opacity: 1;
-  transition: all 1s ease-in;
+  transition-delay: 4s;
+  transition: height 0.5s ease-in;
 }
 .avantage-text {
-  text-align: justify;
-  font-size: 30px;
-  transition: all 1s ease-in;
+  opacity: 0;
+  height: 0;
+  transition: height 2s ease-in;
 }
 .avantage-text-hide {
   padding: 15px;
-  background-color: beige;
+  background-color: grey;
   text-align: justify;
   border: 1px gray solid;
-  border-radius: 20px;
-  margin: 10px;
-  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+  height: 200px;
   font-size: 30px;
-  transition: all 1.2s ease-in;
+  color: white;
+  opacity: 1;
+  transition: opacity 1.6s ease-in;
 }
 
 .container__prez {
@@ -769,20 +786,69 @@ form input {
   width: 80%;
   margin: 0 auto;
 }
+.news-page-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
 .news-page-item {
-  height: 500px;
-  width: 800px;
+  position: relative;
+  width: 30%;
   margin: 0 auto;
   margin-bottom: 40px;
-  border: 1px solid black;
+  box-sizing: border-box;
+  height: 1000px;
+  padding: 10px 30px;
+  box-shadow: lightgray 4px 4px 20px;
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+}
+.news-page-item img {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  margin: 20px auto;
 }
 .news-page-item h2 {
+  position: absolute;
+  top: 550px;
   margin: 0;
-  margin-top: 20px;
+  height: 200px;
+  font-size: 3em;
 }
-.news-page-item p:nth-of-type(1) {
-  min-height: 250px;
+.news-page-item p {
+  position: absolute;
+  top: 720px;
+  height: 250px;
+  width: 90%;
+  text-align: justify;
+  font-size: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news-page-item p:nth-of-type(2) {
+  position: absolute;
+  top: 900px;
+}
+
+.news-edit {
+  width: 80%;
+  margin: 0 auto;
+}
+.news-edit p {
+  width: 80%;
+  font-size: 30px;
+  margin-left: 100px;
+  text-align: justify;
+  margin-bottom: 150px;
+}
+.news-edit img {
+  width: 500px;
+  height: 500px;
+}
+.news-edit a {
+  font-size: 30px;
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */

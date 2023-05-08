@@ -2,32 +2,6 @@ import React from "react";
 import { getAvantages } from "../libs/getItems";
 import { useState } from "react";
 
-function AvantageText(props) {
-  return <p>{props.description}</p>;
-}
-function AvantageList(props) {
-  const [isHidden, setIsHidden] = useState(false);
-
-  const handleClick = () => {
-    setIsHidden(!isHidden);
-  };
-  console.log(isHidden);
-  return (
-    <div className="avantage-card" onClick={handleClick}>
-      <div className="avantage-card_main">
-        <div className="avantage-background-icone">
-          <img src={props.image} alt={props.image} className="avantage-icone" />
-        </div>
-        <h3 className="avantage-title">{props.name}</h3>
-      </div>
-
-      {/* <div className={`avantage-description ${isHidden ? "hide" : ""}`}>
-        <AvantageText description={props.description} />
-      </div> */}
-    </div>
-  );
-}
-
 function Avantage({ data, manufacturer }) {
   const hasManufacturer = [data].some((item) => {
     return item.fabricant === manufacturer;
@@ -77,7 +51,11 @@ function Avantage({ data, manufacturer }) {
               <p className={`avantage-text${selected !== -1 ? "-hide" : ""}`}>
                 {avantages[selected].description}
               </p>
-            ) : null}
+            ) : (
+              <p
+                className={`avantage-text${selected !== -1 ? "-hide" : ""}`}
+              ></p>
+            )}
           </div>
         </div>
       </div>
