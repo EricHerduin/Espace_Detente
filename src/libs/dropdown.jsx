@@ -14,7 +14,7 @@ function TextBanner(props) {
 }
 function FeatList(props) {
   return props.data.map((item) => {
-    return <li>{item}</li>;
+    return <li key={item.id}>{item}</li>;
   });
 }
 
